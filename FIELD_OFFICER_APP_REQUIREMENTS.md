@@ -73,7 +73,7 @@ This section covers the authentication and security features for the Field Offic
 
 **As a** Field Officer,
 **I want to** set up and use a secure PIN for subsequent logins,
-**So that** I can access the app more quickly and securely without entering my full password every time.
+**So that** I can access the app more quickly and securely without having to enter my full password every time.
 
 #### Acceptance Criteria
 
@@ -198,7 +198,7 @@ This section describes the process of initiating a site audit after selecting a 
 **As a** Field Officer,
 **I want to** scan a site-specific RFID tag, Barcode, or QR code when I arrive at a client's location,
 **So that** the app can verify I am at the correct site before I begin my audit.
-
+**Need to implement all three scans. If a Barcode or QR code is scanned, the Latitude and longitude of the person scanning are captured.**
 #### Acceptance Criteria
 
 **Frontend (Flutter/Riverpod):**
