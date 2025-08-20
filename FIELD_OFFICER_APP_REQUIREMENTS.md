@@ -149,7 +149,7 @@ This section outlines the features of the main dashboard screen, which is the fi
 
 **Frontend (Flutter/Riverpod):**
 - [ ] The dashboard shall be the default screen after login.
-- [ ] The screen should display a tabbed or sectioned layout for "Today's Visits," "This Week's Visits," "This Fortnight's Visits," and "This Month's Visits."
+- [ ] The screen should display a tabbed or sectioned layout for "Today's Visits," "This Week's Visits," "This Fortnight's Visits," and "This Month's Visits."(Time to be mentioned)
 - [ ] Each section will display a list of client names (CRMs) assigned to the officer for that period.
 - [ ] If a list is empty, a user-friendly message like "No visits scheduled for today" should be shown.
 - [ ] The app will fetch this data from the backend upon loading the dashboard.
@@ -203,8 +203,8 @@ This section describes the process of initiating a site audit after selecting a 
 
 **Frontend (Flutter/Riverpod):**
 - [ ] Tapping a client name on the dashboard navigates to a scanning screen.
-- [ ] The device's camera will be activated to scan for a QR code or barcode. The app should use a package like `mobile_scanner` or `qr_code_scanner`.
-- [ ] (If RFID is pursued) Integration with device-specific RFID hardware/APIs will be required. This may need a separate proof-of-concept. For Phase 1, QR/Barcode is sufficient.
+- [ ] The device's camera will be activated to scan for a barcode. The app should use a package like `mobile_scanner`.
+- [ ] (If RFID is pursued) Integration with device-specific RFID hardware/APIs will be required. This may need a separate proof-of-concept. **For Phase 1, QR/Barcode is sufficient.**
 - [ ] A clear UI overlay should instruct the user what to do (e.g., "Scan Site QR Code").
 - [ ] Once a code is detected, its value is sent to the backend for validation. A loading indicator should be shown.
 - [ ] **On successful validation:**
